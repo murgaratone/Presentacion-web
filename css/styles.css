@@ -64,7 +64,7 @@ body {
 /* SECCION MAIN */
 
 .hero {
-    height: 90.4vh;
+    height: 85vh;
     background-image:linear-gradient(rgba(16, 16,16, .8),rgba(16, 16,16, .8)), url(../img/perfil.jpeg);
     background-size: cover;
     max-width: 100%;
