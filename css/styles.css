@@ -28,7 +28,7 @@ body {
 /* alinea el ul en horizontal */
 .navbar .menu {
 
-    grid-column: 4 / 7;
+    grid-column: 3 / 7;
     display: flex;
     /* da separacion entre li */
     justify-content: space-around;    

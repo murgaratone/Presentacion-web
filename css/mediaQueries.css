@@ -23,7 +23,7 @@
         display: grid;
         align-items: center;
         background-color: #e6c11f;
-        margin-top: 38em;
+        margin-top: 25em;
         transform: translateX(170%);
         transition: all 1s;
     }
@@ -49,5 +49,306 @@
 
     .footer .social-network {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .navbar {
+        position: relative;
+    }
+    .navbar .shoping {
+        display: none;
+    }
+
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 6/9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+/* pociciones y tamaño de la barra responsive */
+    .navbar .menu {
+        border-radius: 5%;
+        position: absolute;
+        width: 100%;
+        height: 28vh;
+        display: grid;
+        align-items: center;
+        background-color: #e6c11f;
+        margin-top: 20em;
+        transform: translateX(170%);
+        transition: all 1s;
+    }
+/* toggle es la clase que se intercambiara al hacer click en el menu */
+    .navbar .menu-toggle {
+        transform: translateX(50%);
+    }
+
+    /* seccion main */
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 5/8;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    /* seccion footer*/
+    .footer .follow-me{
+        display: none;
+    }
+
+    .footer .social-network {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .navbar {
+        position: relative;
+    }
+    .navbar .shoping {
+        display: none;
+    }
+
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 6/9;
+        font-size: 3em;
+        cursor: pointer;
+    }
+/* pociciones y tamaño de la barra responsive */
+    .navbar .menu {
+        border-radius: 5%;
+        position: absolute;
+        width: 90%;
+        height: 28vh;
+        display: grid;
+        align-items: center;
+        background-color: #e6c11f;
+        margin-top: 38em;
+        transform: translateX(170%);
+        transition: all 1s;
+    }
+/* toggle es la clase que se intercambiara al hacer click en el menu */
+    .navbar .menu-toggle {
+        transform: translateX(46%);
+    }
+
+    /* seccion main */
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 2/8;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p{
+        font-size: 15px;
+    }
+    .hero h3{
+        text-align: start;
+        font-size: 20px;
+    }
+
+    /* seccion footer*/
+    .footer .follow-me{
+        display: none;
+    }
+
+    .footer .social-network {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .navbar {
+        position: relative;
+    }
+    .navbar .shoping {
+        display: none;
+    }
+
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 6/9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+/* pociciones y tamaño de la barra responsive */
+    .navbar .menu {
+        
+        margin: auto;
+        border-radius: 5%;
+        position: absolute;
+        width: 165%;
+        height: 15vh;
+        display: grid;
+        align-items: center;
+        background-color: #e6c11f;
+        margin-top: 26em;
+        transform: translateX(170%);
+        transition: all 1s;
+    }
+/* toggle es la clase que se intercambiara al hacer click en el menu */
+    .navbar .menu-toggle {
+        transform: translateX(-8%);
+    }
+
+    /* seccion main */
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 1/8;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+    .hero p{
+        font-size: 15px;
+    }
+    .hero h3{
+        text-align: start;
+        font-size: 20px;
+    }
+
+    /* seccion footer*/
+    .footer .follow-me{
+        display: none;
+    }
+
+    .footer .social-network {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .navbar {
+        position: relative;
+    }
+    .navbar .shoping {
+        display: none;
+    }
+
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 3/9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+/* pociciones y tamaño de la barra responsive */
+    .navbar .menu {
+        border-radius: 5%;
+        position: absolute;
+        width: auto;
+        height: 16vh;
+        display: grid;
+        align-items: center;
+        background-color: #e6c11f;
+        margin-top: 13em;
+        transform: translateX(170%);
+        transition: all 1s;
+    }
+/* toggle es la clase que se intercambiara al hacer click en el menu */
+    .navbar .menu-toggle {
+        transform: translateX(-150%);
+    }
+
+    /* seccion main */
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 1/8;
+    }
+
+    .hero h1 {
+        font-size: 1em;
+    }
+
+    .hero p{
+        font-size: 15px;
+    }
+    .hero h3{
+        text-align: start;
+        font-size: 20px;
+    }
+
+    /* seccion footer*/
+    .footer .follow-me{
+        display: none;
+    }
+
+    .footer .social-network {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .navbar {
+        position: relative;
+    }
+    .navbar .shoping {
+        display: none;
+    }
+
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 1/9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+/* pociciones y tamaño de la barra responsive */
+    .navbar .menu {
+        border-radius: 5%;
+        position: absolute;
+        width: auto;
+        height: 11vh;
+        display: grid;
+        align-items: center;
+        background-color: #e6c11f;
+        margin-top: 13em;
+        transform: translateX(170%);
+        transition: all 1s;
+    }
+/* toggle es la clase que se intercambiara al hacer click en el menu */
+    .navbar .menu-toggle {
+        transform: translateX(-195%);
+    }
+
+    /* seccion main */
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 2/8;
+    }
+
+    .hero h1 {
+        font-size: 1em;
+    }
+
+    .hero p{
+        font-size: 15px;
+    }
+
+    /* seccion footer*/
+    .footer .follow-me{
+        display: none;
+    }
+
+    .footer .social-network {
+        text-align: center;
+    }
+
+    .hero h3{
+        text-align: start;
+        font-size: 20px;
     }
 }
