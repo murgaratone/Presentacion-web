@@ -1,8 +1,17 @@
 @media only screen and (max-width: 800px) {
+    
+    
+
+    .hero {
+        height: 125vh;
+        overflow: hidden;
+    }
 
 
     .navbar {
-        position: relative;
+        position: fixed;
+        
+        
     }
     .navbar .shoping {
         display: none;
@@ -13,9 +22,11 @@
         grid-column: 8/9;
         font-size: 2em;
         cursor: pointer;
+        
     }
 /* pociciones y tamaño de la barra responsive */
     .navbar .menu {
+        margin: auto;
         border-radius: 5%;
         position: absolute;
         width: 100%;
@@ -30,6 +41,7 @@
 /* toggle es la clase que se intercambiara al hacer click en el menu */
     .navbar .menu-toggle {
         transform: translateX(70%);
+        
     }
 
     /* seccion main */
@@ -53,9 +65,14 @@
 }
 
 @media only screen and (max-width: 700px) {
+    
+    .hero {
+        height: 120vh;
+    }
 
     .navbar {
-        position: relative;
+        position: fixed;
+        
     }
     .navbar .shoping {
         display: none;
@@ -66,6 +83,7 @@
         grid-column: 6/9;
         font-size: 2em;
         cursor: pointer;
+        overflow: hidden;
     }
 /* pociciones y tamaño de la barra responsive */
     .navbar .menu {
@@ -107,12 +125,18 @@
 
 
 @media only screen and (max-width: 600px) {
+    
+
+    .hero {
+        height: 108vh;
+    }
 
     .navbar {
-        position: relative;
+        position: fixed;
     }
     .navbar .shoping {
         display: none;
+        overflow: hidden;
     }
 
     .navbar .menu-bar {
@@ -169,9 +193,15 @@
 
 
 @media only screen and (max-width: 500px) {
+    
+    
+    .hero {
+        height: 145vh;
+    }
 
     .navbar {
-        position: relative;
+        position: fixed;
+        margin: auto;
     }
     .navbar .shoping {
         display: none;
@@ -231,9 +261,15 @@
 }
 
 @media only screen and (max-width: 400px) {
+    
+
+    .hero {
+        height: 125vh;
+    }
 
     .navbar {
-        position: relative;
+        position: fixed;
+        
     }
     .navbar .shoping {
         display: none;
@@ -292,9 +328,10 @@
 }
 
 @media only screen and (max-width: 300px) {
+   
 
     .navbar {
-        position: relative;
+        position: fixed;
     }
     .navbar .shoping {
         display: none;

@@ -4,14 +4,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
+    
+    
 }
 /* da color a navbar y alinea en horizontal sus elementos */
 .navbar {
+    
     background-color: #ecad36;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -27,7 +33,8 @@ body {
 }
 /* alinea el ul en horizontal */
 .navbar .menu {
-
+    z-index:1;
+    
     grid-column: 3 / 7;
     display: flex;
     /* da separacion entre li */
@@ -35,11 +42,13 @@ body {
 }
 
 .navbar .menu li {
+    
     /* quitar stilos a los li es decir las vi´ñetas*/
     list-style: none;
 }
 
 .navbar .menu a {
+    
     /* quitar stilos a los links */
     text-decoration: none;
     color: rgb(37, 36, 36);
@@ -55,6 +64,7 @@ body {
 
 .navbar .menu-bar{
     display: none;
+    
 }
 
 /* .navbar .shoping {
@@ -106,7 +116,7 @@ body {
     font-size: 2em;
     background: none;
     color: #fff;
-    pad: 10px 20px;
+    padding: 10px 20px;
     border: 1px solid #edcb54;
     border-radius: 25px;
     margin-top: 10px;
@@ -132,6 +142,7 @@ body {
 /* seccion footer */
 
 .footer {
+    padding-bottom: 0.1px;
     display: grid;
     height: 80px;
     align-items: center;
