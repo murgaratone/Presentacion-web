@@ -16,8 +16,8 @@
             <img src="img/logo.png" class="logo" alt="dani rivero logo">
             <ul class="menu" id="menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="https://my-web-personal.herokuapp.com" target="_blank" >Portfolio</a></li>
+                <li><a href="https://www.linkedin.com/in/oscar-morales-3189b9221" target="_blank" >Contact</a></li>
             </ul>
             <div class="menu-bar" id="menu-bar">
                 <i class="fas fa-bars"></i>
