@@ -6,6 +6,10 @@
 		{
 			"name": "PRESENTACION",
 			"path": "..\\git repo\\PRESENTACION"
+		},
+		{
+			"name": "Presentacion-web",
+			"path": "Presentacion-web"
 		}
 	],
 	"settings": {
