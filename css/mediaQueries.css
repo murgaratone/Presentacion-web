@@ -1,0 +1,53 @@
+@media only screen and (max-width: 800px) {
+
+
+    .navbar {
+        position: relative;
+    }
+    .navbar .shoping {
+        display: none;
+    }
+
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 8/9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+/* pociciones y tamaño de la barra responsive */
+    .navbar .menu {
+        border-radius: 5%;
+        position: absolute;
+        width: 100%;
+        height: 37vh;
+        display: grid;
+        align-items: center;
+        background-color: #e6c11f;
+        margin-top: 38em;
+        transform: translateX(170%);
+        transition: all 1s;
+    }
+/* toggle es la clase que se intercambiara al hacer click en el menu */
+    .navbar .menu-toggle {
+        transform: translateX(70%);
+    }
+
+    /* seccion main */
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 5/8;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    /* seccion footer*/
+    .footer .follow-me{
+        display: none;
+    }
+
+    .footer .social-network {
+        text-align: center;
+    }
+}

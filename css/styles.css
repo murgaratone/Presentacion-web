@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;1,200;1,300&family=Roboto:wght@100;300;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+/* da color a navbar y alinea en horizontal sus elementos */
+.navbar {
+    background-color: #ecad36;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+
+.navbar .logo {
+    
+    width: 300px;
+    height: 80px;
+    grid-column: 2/3;
+    font-size: 80px;
+}
+/* alinea el ul en horizontal */
+.navbar .menu {
+
+    grid-column: 4 / 7;
+    display: flex;
+    /* da separacion entre li */
+    justify-content: space-around;    
+}
+
+.navbar .menu li {
+    /* quitar stilos a los li es decir las vi´ñetas*/
+    list-style: none;
+}
+
+.navbar .menu a {
+    /* quitar stilos a los links */
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.navbar .menu a:hover{
+    color: #fff;
+}
+
+.navbar .menu-bar{
+    display: none;
+}
+
+/* .navbar .shoping {
+    grid-column: 8/9;
+} */
+
+/* SECCION MAIN */
+
+.hero {
+    height: 90.4vh;
+    background-image:linear-gradient(rgba(16, 16,16, .8),rgba(16, 16,16, .8)), url(../img/perfil.jpeg);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+
+.hero .info-content {
+    grid-column: 7/10;
+    grid-row: 3/7;
+    color: aliceblue;
+}
+
+.hero {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #edcb54;
+    margin-bottom: 40px;
+}
+
+.hero p {
+    font-weight: 2000;
+    font-family: 'Montserrat','sans-serif';
+    margin-bottom: 40px;
+}
+
+.hero h3{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.hero .btn {
+    font-size: 2em;
+    background: none;
+    color: #fff;
+    pad: 10px 20px;
+    border: 1px solid #edcb54;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background-color: #edcb54;
+    color: #181818;
+}
+
+/* seccion main */
+/* pocicion del texto */
+.hero .info-content {
+    grid-column: 6 / 10;
+    grid-row: 3/8;
+}
+
+.hero h1 {
+    font-size: 2;
+}
+
+/* seccion footer */
+
+.footer {
+    display: grid;
+    height: 80px;
+    align-items: center;
+    background-color: #181818;
+    color: rgb(252, 246, 246);
+    grid-template-areas: 
+    "listen-online follow-me social-network";
+}
+
+.listen-online a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #181818;
+}
+
+.listen-online i{
+    margin-right: 10px;
+}
+
+.footer .listen-online {
+    grid-template-areas: listen-online;
+    display: flex;
+    justify-content: center;
+    background-color: #edcb54;
+    padding: 26px;
+    color: #fa0b0b;
+    font-size: 25px;
+    align-items: center;
+}
+
+.footer .listen-online .fas{
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.follow-me a{
+    text-decoration: none;
+    color: #edcb54;
+    font-weight: bold;
+    font-size: 24px;
+}
+.follow-me i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.footer .follow-me {
+    grid-template-areas: follow-me;
+    text-align: center;
+}
+
+.social-network a{
+    text-decoration: none;
+    color: #edcb54;
+    font-weight: bold;
+}
+
+.social-network i{
+    font-size: 30px;
+}
+
+.footer .social-network {
+    grid-template-areas: social-network;
+    font-size: 1.3em;    
+
+}
+
+.footer .social-network .fab {
+    margin-right: 15px;
+    color: #faf8f2;
+}
+
+.footer .social-network .fab:hover {
+    color: #fff;
+}
+
+.btn{
+    color: #fa0b0b;
+}
